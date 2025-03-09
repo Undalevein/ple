@@ -2,9 +2,9 @@
 
 # Lua Explorations
 
-To build and run Lua programs on your local machine, download and install the Lua system from the [Lua downlaods page](https://www.lua.org/download.html) or use your favorite package manager.
+To build and run Lua programs on your local machine, download and install the most recent language version from the [Lua downloads page](https://www.lua.org/download.html) or use your favorite package manager.
 
-Once installed, programs in this folder can be run from the command line like so:
+Programs in this folder have been tested using Lua 5.4.7 and can be run from the command line like so:
 
 ```
 lua triple.lua
@@ -20,33 +20,26 @@ lua top_ten_scorers.lua < ../test/wnba_input
 
 Running the command `lua` with no arguments gives you a repl.
 
-To run the tests on a Unix-like shell:
+To run the tests, invoke `./test.sh` in a Unix-friendly shell or `test.ps1` in PowerShell.
 
-```
-./test.sh
-```
+## About
 
-## About Lua
+Lua is a lightweight and efficient programming language. It was designed and implemented by a team led by Roberto Ierusalimschy at PUC-Rio, Pontifícia Universidade Católica do Rio de Janeiro, in Brazil. The first version of Lua was released in 1993 and the language is still being actively developed. Lua is a popular choice for game programming and was the implementation language for titles such as World of Warcraft, Angry Birds, Hades II, Diner Dash, Roblox, and SimCity 4. It interoperates well with other languages, and can easily be embedded into C, C++, Java, Fortran, Smalltalk, and Erlang implementations.
 
-Lua is a lightweight and efficient programming language. It was designed and implemented by a team led by Roberto Ierusalimschy at PUC-Rio, Pontifícia Universidade Católica do Rio de Janeiro, in Brazil. The first version of Lua was released in 1993 and it is still being actively developed today. Lua is a popular choice for game programming and was the implementation language for titles such as World of Warcraft, Angry Birds, Hades II, Diner Dash, Roblox, and SimCity 4. It interoperates well with other languages, and can easily be embedded into C, C++, Java, Fortran, Smalltalk, and Erlang implementations.
+## Resources
 
-## Lua Resources
-
-Continue your study of Lua via:
-
-- [Awesome Lua](https://github.com/LewisJEllis/awesome-lua)
-- [Lua Home](http://www.lua.org/)
+- [Language Home](http://www.lua.org/)
+- [Official Documentation](http://www.lua.org/docs.html)
+- [Awesome Lua](https://github.com/uhub/awesome-lua)
 - [List of Lua Books](http://www.lua.org/docs.html#books)
-- [Lua Reference Manual](http://www.lua.org/manual/5.4/)
-- [The book _Programming in Lua_ by Lua’s creator, Roberto Ierusalimschy](http://www.lua.org/pil/)
-- [List of Lua Books](https://realtoughcandy.com/best-lua-books/)
+- [Another List of Lua Books](https://realtoughcandy.com/best-lua-books/)
+- The book [_Programming in Lua_](http://www.lua.org/pil/) by Lua’s creator, Roberto Ierusalimschy
 - [List of video games scripted in Lua](<https://en.wikipedia.org/wiki/Category:Lua_(programming_language)-scripted_video_games>)
+- [Lua at Rosetta Code](https://rosettacode.org/wiki/Category:Lua)
+- [Lua in 100 Seconds](https://www.youtube.com/watch?v=jUuqBZwwkQw)
 
-## Lua Open Source Projects
+## In Open Source
 
-Studying, and contributing to, open source projects is an excellent way to improve your proficiency in any language. Of the many projects using Lua, you may enjoy:
-
-- [Luvit](https://github.com/luvit/luvit)
-- [CorsixTH](https://github.com/CorsixTH/CorsixTH)
-- [termtris](https://github.com/tylerneylon/termtris)
-- [PacPac](https://github.com/tylerneylon/pacpac)
+- [The GitHub Topic Page](https://github.com/topics/lua)
+- [Trending Repositories on GitHub](https://github.com/trending/lua)
+- [Top 100 Starred Repositories on GitHub](https://github.com/EvanLi/Github-Ranking/blob/master/Top100/Lua.md)
